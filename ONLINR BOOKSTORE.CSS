@@ -1,0 +1,131 @@
+body {
+
+    font-family:courier,verdana ;
+  
+    margin: 40;
+  
+    padding: 50;
+  
+  }
+  
+  header {
+  
+    background-color: #333333;
+  
+    color: #ffffff;
+  
+    padding: 5px;
+  
+    text-align: center;
+  
+  }
+  
+  .book-container {
+  
+    display: flex;
+  
+    flex-wrap: wrap;
+  
+    justify-content: space-around;
+  
+    padding: 70px;
+  
+  }
+  
+  .book {
+  
+    width: 100px;
+  
+    margin: 20px;
+  
+    border: 20px solid #56158e;
+  
+    padding: 30px;
+  
+    text-align: center;
+  
+  }
+  
+  .book img {
+  
+    max-width: 100px;
+  
+    height: 150px;
+
+    width: 150px;
+    margin-bottom: 10px;
+
+  
+  }
+  
+  .cart-container {
+  
+    background-color: #f2f2f200;
+  
+    padding: 20px;
+  
+    text-align: center
+  
+  ;
+
+  }
+  
+  .cart-container table {
+  
+    width: 100%;
+  
+  }
+  
+  .cart-container th {
+  
+    background-color: #333;
+  
+    color: #ffffff;
+  
+    padding: 8px;
+  
+    text-align: center;
+  
+  }
+  
+  .cart-container td {
+  
+    padding: 8px;
+  
+    text-align: center;
+  
+  }
+  
+  .total {
+  
+    text-align: center;
+  
+    font-weight: bold;
+  
+  }
+  
+  button{
+  
+    background-color: #6f4caf;
+  
+    color: #ffffff5e;
+  
+    border: none;
+  
+    padding: 8px 12px;
+  
+    cursor: pointer;
+  
+    font-size: 14px;
+  
+    margin-top: 10px;
+  
+  }
+  
+  button.remove-button {
+  
+    background-color: #000dff;
+  
+  }
+  
+  
